@@ -9,6 +9,7 @@ export class AppComponent {
   title = 'Game-odd-even';
   oddNumbers: number[] = [];
   evenNumbers: number[] = [];
+  value = 1;
 
   onIntervalFired(firedNumber: number) {
     firedNumber % 2 === 0

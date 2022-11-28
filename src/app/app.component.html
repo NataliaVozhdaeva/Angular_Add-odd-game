@@ -28,4 +28,17 @@
       ></app-even>
     </div>
   </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <div [ngSwitch]="value">
+          <p *ngSwitchCase="10">10</p>
+          <p *ngSwitchCase="100">100</p>
+          <p *ngSwitchCase="1000">1000</p>
+          <p *ngSwitchDefault>default</p>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
